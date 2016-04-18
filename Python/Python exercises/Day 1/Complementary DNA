@@ -1,0 +1,14 @@
+dna_sequence_init = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+
+# A to T
+dna_sequence = dna_sequence_init.replace("A","t")
+# T to A
+dna_sequence = dna_sequence.replace("T","A")
+# G to C
+dna_sequence = dna_sequence.replace("G","c")
+# C to G
+dna_sequence = dna_sequence.replace("C","G")
+
+print (dna_sequence_init)
+print (dna_sequence.upper())
+

@@ -1,0 +1,10 @@
+#Day 5 notes
+
+#os functions to work with operating system
+
+#at start of file import os
+
+#examples:
+#os.rename("old.txt","new.txt")
+
+#moving 

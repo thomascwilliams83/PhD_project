@@ -1,0 +1,163 @@
+General notes
+
+Think about different text editors- Notepad ++ or Sublime
+
+Vocabulary:
+print("Hello World")
+
+Function- eg print() is an instruction to Python, throw back to original computers- when output was printed out
+
+Arguments are the specifics that the functions work on, in maths f(x)
+
+Function and argument is a statement (a single instruction)
+
+Strings are collection of characters in quotes - eg a sequence of DNA/amino acid residues are also strings
+
+() are parentheses, more specific than brackets
+
+Single and double quotes are the same
+
+\n means start new line
+
+# text for us to read- computer will not read it- use to disable code
+
+\n is symbol for new line
+\ generally removes subsequent character from being read by Python
+
+eg print("she said: \"my dog said \"woof!\"\""")
+
+variables- way of assigning a label to a string/list
+eg my_dna = "ATCGTA"
+
+Variable names are case sensitive         
+
+Manipulating test (strings)
+can join strings together with a plus
+eg "AA" + " GTTTA" straight into Python console will give 'AAGTTTA' this only works in interactive console
+
+concatenation = "AA" + "GTTTA"
+print (concatenation)
+will give:
+AAGTTTA [no brackets]
+
+If add two strings will get a further string
+eg:
+upstream = "AAA"
+downstream = "GGG"
+my_dna1 = upstream + "CCC" + downstream
+print (my_dna1) gives
+         
+AAACCCGGG
+
+To add space to string include " "
+
+#Length function len()
+Tells you length of a string (number of characters)
+         
+Python treats strings and numbers differently -  cannot perform a function on two different types of data
+
+Python will round down division- eg 10/3 will output 3
+To fix this add this to code
+from __future__ import division
+
+to convert number to string:
+str(4)
+         
+to convert string to number:
+int()
+
+to convert a string into lower case, use lower()         
+eg my_dna = "ATG"
+print (my_dna.lower())
+
+lower() is a method, not a function
+to use a method, write name of variable, then a dot, then the method name
+
+
+replace () method- eg 
+
+protein = "vlspadktnv"
+# replace valine with tyrosine
+val_tyr = protein.replace("v","y")
+print val_tyr
+ylspadktny          
+
+         
+to find out what a method does, use help button:
+eg help(protein.replace)
+
+To extract part of string, put square brackets after variable name with start and stop position separated by a colon. Start counting at 0. Position inclusive at the start, exclusive at the end
+protein = "vlspadktnv"         
+print protein[5:]
+         
+count() method - tell you how many times a short string occurs inside a long one
+
+protein = "vlspadktnvnnvnnv"
+valine_count = protein.count('v')
+tryptophan_count = protein. count('w')
+         
+print("valines: " + str(valine_count))      
+print("tryptophans: " + str(tryptophan_count)) 
+
+output
+valines: 4
+tryptophans: 0
+
+         
+find method identifies position of short string inside long one
+         
+count method finds number of particular string inside longer one
+
+SUMMARY:
+Functions
+print() for showing text on the screen
+len() for finding the length of a string
+str() for converting a number to a string
+int() for converting a string to a number
+
+String methods
+upper() for changing to upper case
+replace() for changing parts of a string
+count() for counting substrings
+find() for locating substrings
+
+Types of things
+strings are always surrounded by quotes
+numbers are always written without quotes
+
+Other tools
+can add numbers together (also /, * and -)
+[1:2] can get parts of a string
+\n means start a new line
+
+Parts of code
+
+function
+method
+arguments
+statement
+quotes
+comments
+variables
+
+
+         
+
+
+
+
+
+
+
+
+
+         
+         
+    
+    
+         
+        
+
+
+
+         

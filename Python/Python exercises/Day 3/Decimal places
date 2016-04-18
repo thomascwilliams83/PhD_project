@@ -1,0 +1,15 @@
+from __future__ import division
+
+
+def get_at_content(dna,sig_figs):
+    length= len(dna)
+    a_count = dna.count("A")
+    t_count = dna.count("T")
+    at_content = (a_count + t_count) / length
+    rounded_at_content = round(at_content,sig_figs)
+    return rounded_at_content
+
+dna = "AAGGTTCCCTTTGGAATTCCGG"
+sig_figs = 3
+
+print(get_at_content(dna,sig_figs))

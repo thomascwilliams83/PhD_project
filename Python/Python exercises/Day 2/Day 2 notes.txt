@@ -1,0 +1,26 @@
+Notes Day 2
+
+To create lists use square brackets
+To add in values can use .append() method
+can add in to blank list:
+my_list[]
+my_list.append["A","B"]
+
+Range function: creates lists of numbers from first to before last digit
+Can use third argument as step size
+eg range(1,10,3) will return:
+[1,4,7]
+
+To sort a list
+
+my_file.sort() alphabetically if strings
+my_file.sort() numerically if numbers
+
+To reverse:
+my_file.reverse()
+
+to do something for every element of list:
+
+eg:
+for value in my_file
+    print(value)

@@ -1,0 +1,11 @@
+##genomic_dna = open("E:\data files\genomic_dna.txt","w")
+##genomic_dna_contents = genomic_dna.read()
+##my_dna = genomic_dna_contents.rstrip("\n")
+##my_dna.write("Hello World")
+##my_dna.close()
+
+genomic_dna = open("E:\data files\genomic_dna.txt","w")
+my_dna = genomic_dna.rstrip("\n")
+my_dna.write("Hello World")
+my_dna.close()
+

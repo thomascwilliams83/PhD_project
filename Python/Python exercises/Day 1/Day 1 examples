@@ -1,0 +1,51 @@
+# print("She said,\n'hello world'")
+# print("she said:\n\"my dog said \"woof!\"\"")
+
+#my_dna = "GTAACT"
+#print (my_dna[1:3])
+#my_dna = "ATTCTT"
+#codon1 = (my_dna[0:3])
+#codon2 = (my_dna[3:7]) 
+#print (codon1)+(codon2)
+
+#'concatenation = "AA" + "GTTTA"
+#print (concatenation)
+
+#from __future__ import division
+
+
+#upstream = "AAA"
+#downstream = "GGG"
+#my_dna1 = upstream + "CCC" + downstream
+#dna_length= len(my_dna1)
+#dna_length_as_string = str(dna_length)
+#message= "length of the DNA sequence is " + dna_length_as_string
+#print (message)
+
+#my_dna = "ATG"
+#my_dna_lower = my_dna.lower()
+#print my_dna_lower
+
+#sentence = "Where's the cat that ate my milk?"
+#dog_replacement = sentence.replace("cat","dog")
+#print dog_replacement
+
+#protein = "vlspadktnv"
+## replace valine with tyrosine
+#val_tyr = protein.replace("v","y")
+#print val_tyr
+
+#protein = "vlspadktnvnnvnnv"
+#valine_count = protein.count('v')
+#tryptophan_count = protein.count('w')
+
+#print("valines: " + str(valine_count))      
+#print("tryptophans: " + str(tryptophan_count))
+
+protein = "vlspadktnvnnvnnv"
+print(protein.count('v'))
+
+      
+
+
+
